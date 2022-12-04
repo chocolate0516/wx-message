@@ -18,4 +18,9 @@ public class TestController {
     public void test() {
         log.info("test!");
     }
+
+    @GetMapping
+    public void test1() {
+        log.info("test!");
+    }
 }
